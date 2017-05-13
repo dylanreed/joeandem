@@ -1,0 +1,74 @@
+# General Settings
+logo: /assets/svg/dummy-logo.svg
+name: joeanem.com
+description: Joe and Em
+site_owner_name: Dylan Reed & Sarah Reed
+email: hello@joeandem.com
+favicon: /favicon.ico
+twitter_handler: joeandem
+analytics_code: UA-XXXXXXX-2
+disqus: your_disqus_site
+
+# Social Accounts
+social_networks:
+-  { name: facebook, url: 'http://facebook.com' }
+-  { name: twitter, url: 'http://twitter.com' }
+-  { name: instagram, url: '' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: '' }
+-  { name: skype, url: '' }
+-  { name: github, url: '' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+-  { name: dribbble, url: '' }
+-  { name: behance, url: '' }
+-  { name: pinterest, url: '' }
+-  { name: tumblr, url: '' }
+-  { name: youtube, url: '' }
+-  { name: vimeo, url: '' }
+-  { name: vine, url: '' }
+-  { name: 500px, url: '' }
+-  { name: flickr, url: '' }
+-  { name: spotify, url: '' }
+-  { name: steam, url: '' }
+-  { name: wordpress, url: '' }
+-  { name: xing, url: '' }
+
+# Modules Settings
+show_tags: 1
+show_email: 1
+show_rss: 1
+show_comments: 0
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "true"
+
+# Serving
+url: "http://joeandem.com"
+baseurl: ""
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+#permalink: /:categories/:title.html
+permalink: pretty
+category_dir: categories
+
+# Pagination
+paginate: 24
+paginate_path: "/all/:num/"
+
+# Conversion
+markdown: kramdown
+
+# Assets Settings
+sass:
+  sass_dir: assets/partials
+  style: compressed
